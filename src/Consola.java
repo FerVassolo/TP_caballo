@@ -9,6 +9,8 @@ public class Consola {
                 "• 2: Mostrar el contenido de las pilas.\n" +
                 "• 3: Salir.");
 
+        //Nota parcial: no va a devolver  System.out.println("Elegiste la 1");
+        // devolverá el método, aún no creado, nextMove(), o algo así.
         boolean repetir = true;
         while (repetir) {
             String userName = consola.nextLine();  // Read user input
