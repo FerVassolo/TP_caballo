@@ -105,7 +105,7 @@ public class Caballo {
 
         }
         try {
-            String mov_posible = tablero[fila-2][col-2];
+            String mov_posible = tablero[fila-2][col-1];
             movs_posibles.apilar(mov_posible);
         }
         catch (Exception ArrayIndexOutOfBoundsException) {
