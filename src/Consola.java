@@ -13,18 +13,18 @@ public class Consola {
 
         //Nota parcial: no va a devolver  System.out.println("Elegiste la 1");
         // devolverá el método, aún no creado, nextMove(), o algo así.
-        boolean repetir = true;
-        while (repetir) {
+        boolean repeat = true;
+        while (repeat) {
             String userName = consola.nextLine();  // Read user input
             if (Objects.equals(userName, "1")) {
                 System.out.println("Elegiste la 1");  // Output user input
-                repetir = false;
+                repeat = false;
             } else if (Objects.equals(userName, "2")) {
                 System.out.println("Elegiste la 2");
-                repetir = false;
+                repeat = false;
             } else if (Objects.equals(userName, "3")) {
                 System.out.println("Elegiste la 3");
-                repetir = false;
+                repeat = false;
             } else{
                 System.out.println("Input no valido, vuelva a intentar");}
         }
